@@ -1,7 +1,7 @@
 # Predictive-Maintenance-of-Equipment
 Predictive maintenance using machine learning helps detect equipment failures before they occur, reducing downtime and maintenance costs. It analyzes real-time and historical data, including sensor readings like temperature, pressure, and vibration, to identify failure patterns. 
 
-**Predictive Maintenance Using Machine Learning** focuses on minimizing industrial equipment failures by leveraging machine learning models. By analyzing historical and real-time operational data, predictive maintenance helps anticipate potential breakdowns before they occur, reducing downtime, optimizing maintenance schedules, and improving operational efficiency.  
+**Predictive Maintenance Using Machine Learning** focuses on minimizing industrial equipment failures by leveraging machine learning models. By analyzing historical and real-time operational data, predictive maintenance helps anticipate potential breakdowns before they occur, reducing downtime, optimizing maintenance schedules, and improving operational efficiency 
 
 
 ### **Key Aspects of the Project:**
