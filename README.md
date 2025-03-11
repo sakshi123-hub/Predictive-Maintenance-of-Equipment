@@ -7,7 +7,7 @@ Predictive maintenance using machine learning helps detect equipment failures be
 ### **Key Aspects of the Project:**
 1. **Objective:**  
    - Reduce machine failures using predictive maintenance strategies.
-   - Enhance model predictive capabilities through feature engineering and hyperparameter tuning.
+   - Enhance model predictive capabilities through feature engineering and hyperparameter tuning
 
 2. **Machine Learning Models Used:**  
    - **Decision Tree:** Chosen for its interpretability and structured decision-making approach.  
