@@ -3,32 +3,35 @@ Predictive maintenance using machine learning helps detect equipment failures be
 
 **Predictive Maintenance Using Machine Learning** focuses on minimizing industrial equipment failures by leveraging machine learning models. By analyzing historical and real-time operational data, predictive maintenance helps anticipate potential breakdowns before they occur, reducing downtime, optimizing maintenance schedules, and improving operational efficiency.  
 
-### **Key Aspects:**
+
+### **Key Aspects of the Project:**
 1. **Objective:**  
-   - Prevent unexpected equipment failures.  
-   - Enhance predictive capabilities using machine learning techniques.  
+   - Reduce machine failures using predictive maintenance strategies.
+   - Enhance model predictive capabilities through feature engineering and hyperparameter tuning.
 
 2. **Machine Learning Models Used:**  
-   - **Decision Tree:** Provides structured decision-making and interpretability.  
-   - **Random Forest:** Uses multiple decision trees to improve accuracy and prevent overfitting.  
-   - **XGBoost:** A powerful and efficient boosting algorithm suitable for large datasets.  
+   - **Decision Tree:** Chosen for its interpretability and structured decision-making approach.  
+   - **Random Forest:** Selected due to its robustness against overfitting and improved prediction accuracy through ensemble learning.  
+   - **XGBoost:** Preferred for its efficiency and high accuracy in handling large datasets.
 
 3. **Data Preprocessing & Feature Engineering:**  
-   - Cleaning and normalizing data for better model performance.  
-   - Transforming features to improve data distribution and stability.  
-   - Tuning hyperparameters using **Grid Search** to optimize predictions.  
+   - Cleaning the dataset by handling missing values and normalizing data.  
+   - Feature transformation using **PowerTransformer** to stabilize variance and improve normality.  
+   - Hyperparameter tuning with **Grid Search** to optimize model performance.
 
 4. **Evaluation Metrics:**  
-   - Accuracy, precision, recall, and F1-score measure model performance.  
-   - Models like **Random Forest and XGBoost** often achieve high accuracy and effectively detect rare failure cases.  
+   - Models were evaluated using **accuracy, precision, recall, and F1-score**.  
+   - **Random Forest** achieved the highest accuracy (**97.91%**), followed closely by **XGBoost (97.70%)** and **Decision Tree (97.38%)**.  
+   - XGBoost performed slightly better in identifying rare failure cases.
 
-5. **Challenges & Solutions:**  
-   - **Imbalanced data:** Techniques like resampling and feature selection help improve failure detection.  
-   - **Feature selection:** Identifying the most relevant data points enhances model reliability.  
-   - **Hyperparameter tuning:** Optimizing model settings improves predictive accuracy.  
+5. **Challenges Addressed:**  
+   - Handling imbalanced data to improve rare failure detection.  
+   - Selecting the most significant features to enhance model reliability.  
+   - Optimizing hyperparameters to achieve the best possible prediction accuracy.
 
-6. **Impact & Future Scope:**  
-   - Predictive maintenance reduces costs, enhances equipment longevity, and improves safety.  
-   - Future improvements could include **real-time monitoring, advanced ensemble models, and transfer learning** for adaptation to different industrial scenarios.  
+6. **Findings & Future Work:**  
+   - **Random Forest** and **XGBoost** demonstrated strong potential for real-world predictive maintenance applications.  
+   - Future improvements could involve **real-time monitoring, advanced ensemble models, and transfer learning** to adapt models to different industrial scenarios.
+
 
 By integrating machine learning into maintenance strategies, industries can transition from **reactive maintenance (fixing issues after failure) to proactive maintenance (preventing failures before they happen),** leading to improved efficiency and cost savings. 
